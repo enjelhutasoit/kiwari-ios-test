@@ -1,14 +1,11 @@
 <h1 align="center">HAY  
-
-(How Are You)
- 
-<a href="https://github.com/enjelhutasoit/musicable"><img a src="https://github.com/enjelhutasoit/kiwari-ios-test/blob/master/hay/Asset.xcassets/AppIcon.appiconset/Smooth%20Corners.png"  alt="hay" width="400"></a>
+(How Are You)<br>
+ <a href="https://github.com/enjelhutasoit/kiwari-ios-test/blob/master/hay/Asset.xcassets/HayLogo.imageset/HayLogo.png"  alt="hay" width="400" height="400"></a>
 
 <h4 align="center">HAY (How Are You) is a simple iOS instant messaging application based on Firebase</h4>
 
 
 <h3 align="center">  
-
 <a href="https://github.com/enjelhutasoit/musicable"><img a src="https://github.com/enjelhutasoit/kiwari-ios-test/blob/master/hay/Asset.xcassets/AppIcon.appiconset/Smooth%20Corners.png"  alt="hay" width="400"></a>
 
 
@@ -32,11 +29,14 @@ Project is created with:
 
 ## FEATURES
 List of features ready: 
-- [x] Message list: user can see message item (content & date sent)
-- [x] Input text message: user can see input text & send button 
-- [x] Menu log out: user can logout and show Login Page
+- [x] Login page: user can input email & password, then click login button
+- [x] Chatroom page: user can see message avatar and name opponent user on toolbar
+- [x] Chatroom page: user can see message list item (content & date sent)
+- [x] Chatroom page: user can input text & send it with sent button 
+- [x] Log out button: user can logout and show Login Page
 
 To-do list for future development:
+- [ ] Sign up button
 - [ ] Add read/unread icon
 - [ ] More features
 
