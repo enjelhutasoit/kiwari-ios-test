@@ -14,7 +14,7 @@
 		EF0594C9239D0E480003788D /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0594C8239D0E480003788D /* Asset.xcassets */; };
 		EF0594CE239D2D360003788D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594CD239D2D360003788D /* LoginViewController.swift */; };
 		EF0594D0239D2DCF0003788D /* HayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594CF239D2DCF0003788D /* HayListTableViewController.swift */; };
-		EF0594D2239D2E1E0003788D /* OnlineUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594D1239D2E1E0003788D /* OnlineUserTableViewController.swift */; };
+		EF10C1D6239DB5D6008BE48D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF10C1D5239DB5D6008BE48D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		EF0594C8239D0E480003788D /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		EF0594CD239D2D360003788D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EF0594CF239D2DCF0003788D /* HayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayListTableViewController.swift; sourceTree = "<group>"; };
-		EF0594D1239D2E1E0003788D /* OnlineUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserTableViewController.swift; sourceTree = "<group>"; };
+		EF10C1D5239DB5D6008BE48D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +68,7 @@
 				EF0594C8239D0E480003788D /* Asset.xcassets */,
 				EF0594BF239C2F610003788D /* LaunchScreen.storyboard */,
 				EF0594C2239C2F610003788D /* Info.plist */,
+				EF10C1D5239DB5D6008BE48D /* GoogleService-Info.plist */,
 			);
 			path = hay;
 			sourceTree = "<group>";
@@ -84,7 +85,6 @@
 			children = (
 				EF0594CD239D2D360003788D /* LoginViewController.swift */,
 				EF0594CF239D2DCF0003788D /* HayListTableViewController.swift */,
-				EF0594D1239D2E1E0003788D /* OnlineUserTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF0594C9239D0E480003788D /* Asset.xcassets in Resources */,
+				EF10C1D6239DB5D6008BE48D /* GoogleService-Info.plist in Resources */,
 				EF0594C1239C2F610003788D /* LaunchScreen.storyboard in Resources */,
 				EF0594BC239C2F5E0003788D /* Main.storyboard in Resources */,
 			);
@@ -160,7 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0594D2239D2E1E0003788D /* OnlineUserTableViewController.swift in Sources */,
 				EF0594D0239D2DCF0003788D /* HayListTableViewController.swift in Sources */,
 				EF0594CE239D2D360003788D /* LoginViewController.swift in Sources */,
 				EF0594B5239C2F5E0003788D /* AppDelegate.swift in Sources */,
@@ -311,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN97V72AGN;
 				INFOPLIST_FILE = hay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FN97V72AGN;
 				INFOPLIST_FILE = hay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
