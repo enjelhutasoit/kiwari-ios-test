@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		EF0594B5239C2F5E0003788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594B4239C2F5E0003788D /* AppDelegate.swift */; };
 		EF0594B7239C2F5E0003788D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594B6239C2F5E0003788D /* SceneDelegate.swift */; };
-		EF0594B9239C2F5E0003788D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594B8239C2F5E0003788D /* ViewController.swift */; };
 		EF0594BC239C2F5E0003788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0594BA239C2F5E0003788D /* Main.storyboard */; };
-		EF0594BE239C2F610003788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0594BD239C2F610003788D /* Assets.xcassets */; };
 		EF0594C1239C2F610003788D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0594BF239C2F610003788D /* LaunchScreen.storyboard */; };
+		EF0594C9239D0E480003788D /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0594C8239D0E480003788D /* Asset.xcassets */; };
+		EF0594CE239D2D360003788D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594CD239D2D360003788D /* LoginViewController.swift */; };
+		EF0594D0239D2DCF0003788D /* HayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594CF239D2DCF0003788D /* HayListTableViewController.swift */; };
+		EF0594D2239D2E1E0003788D /* OnlineUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594D1239D2E1E0003788D /* OnlineUserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF0594B1239C2F5E0003788D /* hay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0594B1239C2F5E0003788D /* Hay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0594B4239C2F5E0003788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF0594B6239C2F5E0003788D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF0594B8239C2F5E0003788D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF0594BB239C2F5E0003788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EF0594BD239C2F610003788D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0594C0239C2F610003788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0594C2239C2F610003788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0594C8239D0E480003788D /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		EF0594CD239D2D360003788D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF0594CF239D2DCF0003788D /* HayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayListTableViewController.swift; sourceTree = "<group>"; };
+		EF0594D1239D2E1E0003788D /* OnlineUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		EF0594B2239C2F5E0003788D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF0594B1239C2F5E0003788D /* hay.app */,
+				EF0594B1239C2F5E0003788D /* Hay.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +60,41 @@
 		EF0594B3239C2F5E0003788D /* hay */ = {
 			isa = PBXGroup;
 			children = (
+				EF0594CA239D2CA50003788D /* Models */,
+				EF0594CC239D2CD50003788D /* Controllers */,
 				EF0594B4239C2F5E0003788D /* AppDelegate.swift */,
 				EF0594B6239C2F5E0003788D /* SceneDelegate.swift */,
-				EF0594B8239C2F5E0003788D /* ViewController.swift */,
 				EF0594BA239C2F5E0003788D /* Main.storyboard */,
-				EF0594BD239C2F610003788D /* Assets.xcassets */,
+				EF0594C8239D0E480003788D /* Asset.xcassets */,
 				EF0594BF239C2F610003788D /* LaunchScreen.storyboard */,
 				EF0594C2239C2F610003788D /* Info.plist */,
 			);
 			path = hay;
 			sourceTree = "<group>";
 		};
+		EF0594CA239D2CA50003788D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF0594CC239D2CD50003788D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF0594CD239D2D360003788D /* LoginViewController.swift */,
+				EF0594CF239D2DCF0003788D /* HayListTableViewController.swift */,
+				EF0594D1239D2E1E0003788D /* OnlineUserTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF0594B0239C2F5E0003788D /* hay */ = {
+		EF0594B0239C2F5E0003788D /* Hay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF0594C5239C2F610003788D /* Build configuration list for PBXNativeTarget "hay" */;
+			buildConfigurationList = EF0594C5239C2F610003788D /* Build configuration list for PBXNativeTarget "Hay" */;
 			buildPhases = (
 				EF0594AD239C2F5E0003788D /* Sources */,
 				EF0594AE239C2F5E0003788D /* Frameworks */,
@@ -82,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = hay;
+			name = Hay;
 			productName = hay;
-			productReference = EF0594B1239C2F5E0003788D /* hay.app */;
+			productReference = EF0594B1239C2F5E0003788D /* Hay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF0594B0239C2F5E0003788D /* hay */,
+				EF0594B0239C2F5E0003788D /* Hay */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0594C9239D0E480003788D /* Asset.xcassets in Resources */,
 				EF0594C1239C2F610003788D /* LaunchScreen.storyboard in Resources */,
-				EF0594BE239C2F610003788D /* Assets.xcassets in Resources */,
 				EF0594BC239C2F5E0003788D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0594B9239C2F5E0003788D /* ViewController.swift in Sources */,
+				EF0594D2239D2E1E0003788D /* OnlineUserTableViewController.swift in Sources */,
+				EF0594D0239D2DCF0003788D /* HayListTableViewController.swift in Sources */,
+				EF0594CE239D2D360003788D /* LoginViewController.swift in Sources */,
 				EF0594B5239C2F5E0003788D /* AppDelegate.swift in Sources */,
 				EF0594B7239C2F5E0003788D /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.enjelhutasoit.hay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.enjelhutasoit.hay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -328,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF0594C5239C2F610003788D /* Build configuration list for PBXNativeTarget "hay" */ = {
+		EF0594C5239C2F610003788D /* Build configuration list for PBXNativeTarget "Hay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF0594C6239C2F610003788D /* Debug */,
