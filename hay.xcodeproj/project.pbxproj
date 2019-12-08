@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6066B690A85CD3A061D1114C /* Pods_Hay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380B84BD28628F1E26FA969E /* Pods_Hay.framework */; };
 		EF0594B5239C2F5E0003788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594B4239C2F5E0003788D /* AppDelegate.swift */; };
 		EF0594B7239C2F5E0003788D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0594B6239C2F5E0003788D /* SceneDelegate.swift */; };
 		EF0594BC239C2F5E0003788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0594BA239C2F5E0003788D /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0813B5E74373A44541862355 /* Pods-Hay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hay.release.xcconfig"; path = "Target Support Files/Pods-Hay/Pods-Hay.release.xcconfig"; sourceTree = "<group>"; };
+		380B84BD28628F1E26FA969E /* Pods_Hay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B6C4C9EF59557ECE297327 /* Pods-Hay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hay.debug.xcconfig"; path = "Target Support Files/Pods-Hay/Pods-Hay.debug.xcconfig"; sourceTree = "<group>"; };
 		EF0594B1239C2F5E0003788D /* Hay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0594B4239C2F5E0003788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF0594B6239C2F5E0003788D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6066B690A85CD3A061D1114C /* Pods_Hay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		259E5A248E5EE7A90BC18C60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65B6C4C9EF59557ECE297327 /* Pods-Hay.debug.xcconfig */,
+				0813B5E74373A44541862355 /* Pods-Hay.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4012E2A4FB57456847BC24C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				380B84BD28628F1E26FA969E /* Pods_Hay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF0594A8239C2F5E0003788D = {
 			isa = PBXGroup;
 			children = (
 				EF0594B3239C2F5E0003788D /* hay */,
 				EF0594B2239C2F5E0003788D /* Products */,
+				259E5A248E5EE7A90BC18C60 /* Pods */,
+				4012E2A4FB57456847BC24C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF0594C5239C2F610003788D /* Build configuration list for PBXNativeTarget "Hay" */;
 			buildPhases = (
+				1CACDB71774775042E7B49A3 /* [CP] Check Pods Manifest.lock */,
 				EF0594AD239C2F5E0003788D /* Sources */,
 				EF0594AE239C2F5E0003788D /* Frameworks */,
 				EF0594AF239C2F5E0003788D /* Resources */,
+				6F56742B5F11BC7FC51E68E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +182,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CACDB71774775042E7B49A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F56742B5F11BC7FC51E68E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hay/Pods-Hay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hay/Pods-Hay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hay/Pods-Hay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF0594AD239C2F5E0003788D /* Sources */ = {
@@ -306,6 +375,7 @@
 		};
 		EF0594C6239C2F610003788D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B6C4C9EF59557ECE297327 /* Pods-Hay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +395,7 @@
 		};
 		EF0594C7239C2F610003788D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0813B5E74373A44541862355 /* Pods-Hay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
