@@ -1,13 +1,26 @@
-<h1 align="center">HAY  
-(How Are You)<br>
- <a href="https://github.com/enjelhutasoit/kiwari-ios-test/blob/master/hay/Asset.xcassets/HayLogo.imageset/HayLogo.png"  alt="hay" width="400" height="400"></a>
-
-<h4 align="center">HAY (How Are You) is a simple iOS instant messaging application based on Firebase</h4>
 
 
-<h3 align="center">  
-<a href="https://github.com/enjelhutasoit/musicable"><img a src="https://github.com/enjelhutasoit/kiwari-ios-test/blob/master/hay/Asset.xcassets/AppIcon.appiconset/Smooth%20Corners.png"  alt="hay" width="400"></a>
+<p align="center">
+  <img src="https://github.com/enjelhutasoit/kiwari-ios-test/blob/master/hay/Asset.xcassets/HayLogo.imageset/HayLogo.png" width="100" height="100" alt="hay" />
+</p>
 
+<p align="center">
+<a href="firebase.google.com"><img src="https://img.shields.io/badge/readme-docs-3484C6.svg" alt="firebase" /></a>
+<a href="https://youtube.com/enjelhutasoit"><img src="https://img.shields.io/badge/youtube-channel-e52d27.svg" alt="Youtube" /></a>
+<a href="https://twitter.com/enjelhutasoit"><img src="https://img.shields.io/twitter/follow/vr_toolkit.svg?style=flat&label=twitter" alt="twitter" /></a>
+</p>
+
+<p align="center">
+  <strong>HAY<br>(How Are You)</strong>
+</p>
+
+HAY is a simple iOS instant messaging application based on Firebase created by 
+<a href="https://github.io/enjelhutasoit">@enjelhutasoit</a>. <br>
+Goal of this project is to provide a very simple and easy way for our beloved grandma/grandpa to
+essentially see and sent messages to another user in chatroom.
+
+
+## SCREENSHOTS
 
 ## DISCLAIMER
 
